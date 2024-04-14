@@ -75,7 +75,6 @@ st.markdown(
         margin-top: 10px;
         font-weight: bold; /* Make caption bold */
         font-style: italic; /* Optionally make caption italic */
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for emphasis */
     }
     </style>
     """,
