@@ -36,7 +36,9 @@ st.markdown(
     .full-width-container {
         width: 100%;
         padding: 20px;
-        background: linear-gradient(135deg, #FFD700, #008000);
+        background: linear-gradient(135deg, #FFD700, #008000), url('https://t3.ftcdn.net/jpg/02/72/67/96/240_F_272679601_ReiKAFUY1xf9XituWgjkkrpTnxqrPlMh.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     </style>
     """,
@@ -48,7 +50,7 @@ st.markdown("<h1 class='title'>Mysore Tourism</h1>", unsafe_allow_html=True)
 st.markdown("<p class='intro'>Welcome to the Mysore Tourism app! Explore the beauty of Mysore through this gallery.</p>", unsafe_allow_html=True)
 
 # Image Gallery
-st.write("## Some of the most famous tourist places")
+st.write("## Image Gallery")
 
 # Mysore Attractions Images
 images = [
