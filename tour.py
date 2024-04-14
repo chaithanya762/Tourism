@@ -70,7 +70,7 @@ st.markdown(
     }
     .image-caption {
         font-size: 16px;
-        color: #FFFFFF;
+        color: black;
         text-align: center;
         margin-top: 10px;
         font-weight: bold; /* Make caption bold */
