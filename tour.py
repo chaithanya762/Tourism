@@ -1,4 +1,5 @@
-# Custom CSS for full-width container with background color
+
+import streamlit as st # Custom CSS for full-width container with background color
 st.markdown(
     """
     <style>
