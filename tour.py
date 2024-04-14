@@ -4,10 +4,9 @@ st.markdown(
     """
     <style>
     .full-width-container {
-        width: 100%;
-        padding: 20px;
         background-color: lightgreen; /* Change to your desired color */
-        color: black; /* Text color on top of the background */
+        padding: 20px;
+        color : black;
     }
     .title {
         font-family: 'Pacifico', cursive;
@@ -37,9 +36,8 @@ st.markdown(
 
 
 # Title and Introduction
-st.markdown("<h1 class='title'>Mysore Tourism</h1>", unsafe_allow_html=True)
-st.markdown("<p class='intro'>Welcome to the Mysore Tourism app! Explore the beauty of Mysore through this gallery.</p>", unsafe_allow_html=True)
-
+st.markdown("<h1 style='text-align: center;'>Mysore Tourism</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'>Welcome to the Mysore Tourism app!</p>", unsafe_allow_html=True)
 # Image Gallery
 st.write("## Image Gallery")
 
