@@ -1,18 +1,11 @@
-import streamlit as st
-
-# Set page configuration to dark mode
-st.set_page_config(layout="wide", page_title="Mysore Tourism", page_icon=":cityscape:")
-
-# Custom CSS for full-width container with background image
+# Custom CSS for full-width container with background color
 st.markdown(
     """
     <style>
     .full-width-container {
         width: 100%;
         padding: 20px;
-        background-image: url('https://t4.ftcdn.net/jpg/01/85/45/39/360_F_185453991_NKQieCp6yWywyYkAjX0O3FtQSwdHxJTB.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color: #cdeccd; /* Light green background color */
         color: black; /* Text color on top of the background */
     }
     .title {
