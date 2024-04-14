@@ -2,19 +2,60 @@ import streamlit as st
 
 # Set page configuration to dark mode
 st.set_page_config(layout="wide", page_title="Mysore Tourism", page_icon=":cityscape:")
+background_image_url = "https://t4.ftcdn.net/jpg/01/85/45/39/360_F_185453991_NKQieCp6yWywyYkAjX0O3FtQSwdHxJTB.jpg"
+background_image_style = f"""
+    <style>
+    .stApp {{
+        background-image: url("{background_image_url}");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;  /* Adjust the height as needed */
+        width: 100vw;   /* Adjust the width as needed */
+    }}
+    .blue-bg {{
+        background-color: darkblue; /* Changed to dark blue */
+        padding: 20px;  /* Increased padding */
+        margin-bottom: 20px; /* Added margin */
+        color: white;   /* Text color */
+    }}
+    .white-bg {{
+        background-color: white; /* Changed to white */
+    }}
+    .bold-text {{
+        font-weight: bold; /* Added bold font weight */
+        font-size: larger; /* Increased font size */
+        padding: 5px; /* Adjusted padding */
+        color: black; /* Text color */
+    }}
+    .red-bg {{
+        background-color: red;
+        padding: 10px;  /* Adjust the padding as needed */
+        margin: 10px;   /* Adjust the margin as needed */
+        color: white;   /* Text color */
+    }}
+    .green-bg {{
+        background-color: green;
+        padding: 10px;  /* Adjust the padding as needed */
+        margin: 10px;   /* Adjust the margin as needed */
+        color: white;   /* Text color */
+    }}
+    .yellow-bg {{
+        background-color: yellow;
+        padding: 10px;  /* Adjust the padding as needed */
+        margin: 10px;   /* Adjust the margin as needed */
+        color: black;   /* Text color */
+    }}
+    </style>
+"""
+
+# Display background image using HTML
+st.markdown(background_image_style, unsafe_allow_html=True)
 
 # Custom CSS for full-width container with background image
 st.markdown(
     """
     <style>
-    .full-width-container {
-        width: 100%;
-        padding: 20px;
-        background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjJiYXRjaDUta3VsLTQ1XzEuanBn.jpg'); /* Replace with your Imgur image URL */
-        background-size: cover;
-        background-repeat: no-repeat;
-        color: black; /* Text color on top of the background */
-    }
     .title {
         font-family: 'Pacifico', cursive;
         font-size: 48px;
