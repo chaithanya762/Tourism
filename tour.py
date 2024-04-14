@@ -10,21 +10,20 @@ st.markdown(
     .full-width-container {
         width: 100%;
         padding: 20px;
-        background: url('https://images.app.goo.gl/yBPJ1TXvyjv9aAeR8');
+        background-image: url('https://images.app.goo.gl/yBPJ1TXvyjv9aAeR8');
         background-size: cover;
         background-repeat: no-repeat;
+        color: black; /* Text color on top of the background */
     }
     .title {
         font-family: 'Pacifico', cursive;
         font-size: 48px;
-        color: black;
         text-align: center;
         margin-bottom: 20px;
     }
     .intro {
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
-        color: black;
         text-align: center;
         margin-bottom: 20px;
     }
