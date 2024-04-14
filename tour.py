@@ -6,7 +6,7 @@ st.markdown(
     .full-width-container {
         width: 100%;
         padding: 20px;
-        background-color: #cdeccd; /* Light green background color */
+        background-color: lightgreen; /* Change to your desired color */
         color: black; /* Text color on top of the background */
     }
     .title {
