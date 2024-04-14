@@ -1,4 +1,5 @@
 import streamlit as st
+
 # Set page configuration to dark mode
 st.set_page_config(layout="wide", page_title="Mysore Tourism", page_icon=":cityscape:")
 
@@ -9,7 +10,7 @@ st.markdown(
     .full-width-container {
         width: 100%;
         padding: 20px;
-        background-image: url('https://images.app.goo.gl/g5g5KZLPJ8Sn66qi7');
+        background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjJiYXRjaDUta3VsLTQ1XzEuanBn.jpg'); /* Replace with your Imgur image URL */
         background-size: cover;
         background-repeat: no-repeat;
         color: black; /* Text color on top of the background */
@@ -37,11 +38,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
 # Title and Introduction
 st.markdown("<h1 class='title'>Mysore Tourism</h1>", unsafe_allow_html=True)
 st.markdown("<p class='intro'>Welcome to the Mysore Tourism app! Explore the beauty of Mysore through this gallery.</p>", unsafe_allow_html=True)
-
 
 # Mysore Attractions Images
 images = [
