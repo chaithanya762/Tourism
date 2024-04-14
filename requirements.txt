@@ -1,8 +1,1 @@
 streamlit
-numpy
-pandas
-Pillow
-keras
-tensorflow
-matplotlib
-gdown
