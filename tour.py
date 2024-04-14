@@ -10,7 +10,7 @@ st.markdown(
     .full-width-container {
         width: 100%;
         padding: 20px;
-        background-image: url('https://images.app.goo.gl/g5g5KZLPJ8Sn66qi7');
+        background-image: url('https://t4.ftcdn.net/jpg/01/85/45/39/360_F_185453991_NKQieCp6yWywyYkAjX0O3FtQSwdHxJTB.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         color: black; /* Text color on top of the background */
