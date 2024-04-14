@@ -10,12 +10,12 @@ st.markdown(
     .title {
         font-family: 'Pacifico', cursive;
         font-size: 48px;
-        color: #FFFFFF;
+        color: black;
     }
     .intro {
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
-        color: #CCCCCC;
+        color: black;
     }
     .image-container {
         padding: 10px;
@@ -68,7 +68,7 @@ col_spacing = 10
 col_style = f"width: calc((100% - {col_spacing}px * {col_count - 1}) / {col_count});"
 
 for i in range(0, num_images, num_cols):
-    cols = st.beta_columns(num_cols)
+    cols = st.columns(num_cols)
     for j, (caption, url) in enumerate(images[i:i+num_cols]):
         with cols[j]:
             st.image(url, caption=caption, use_column_width=True)
@@ -77,4 +77,5 @@ for i in range(0, num_images, num_cols):
 
 # Footer
 st.write("Developed by Chaithanya")
+
 
