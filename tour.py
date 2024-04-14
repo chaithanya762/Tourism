@@ -42,8 +42,6 @@ st.markdown(
 st.markdown("<h1 class='title'>Mysore Tourism</h1>", unsafe_allow_html=True)
 st.markdown("<p class='intro'>Welcome to the Mysore Tourism app! Explore the beauty of Mysore through this gallery.</p>", unsafe_allow_html=True)
 
-# Image Gallery
-st.write("## Image Gallery")
 
 # Mysore Attractions Images
 images = [
