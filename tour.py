@@ -11,11 +11,15 @@ st.markdown(
         font-family: 'Pacifico', cursive;
         font-size: 48px;
         color: black;
+        text-align: center;
+        margin-bottom: 20px;
     }
     .intro {
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
         color: black;
+        text-align: center;
+        margin-bottom: 20px;
     }
     .image-container {
         padding: 10px;
@@ -24,10 +28,13 @@ st.markdown(
         margin-bottom: 20px;
     }
     .image-caption {
-        font-size: 14px;
+        font-size: 16px;
         color: #FFFFFF;
         text-align: center;
         margin-top: 10px;
+    }
+    body {
+        background: linear-gradient(135deg, #FFD700, #008000);
     }
     </style>
     """,
@@ -60,7 +67,6 @@ images = [
 ]
 
 # Display Images
-col_width = 200
 col_count = 5
 num_images = len(images)
 num_cols = min(col_count, num_images)
@@ -71,11 +77,10 @@ for i in range(0, num_images, num_cols):
     cols = st.columns(num_cols)
     for j, (caption, url) in enumerate(images[i:i+num_cols]):
         with cols[j]:
-            st.image(url, caption=caption, use_column_width=True)
+            st.image(url, caption=caption, use_column_width=True, output_format='JPEG')
             st.markdown(f"<p class='image-caption'>{caption}</p>", unsafe_allow_html=True)
             st.markdown("<style>.stImg {padding: 0 !important;}</style>", unsafe_allow_html=True)
 
 # Footer
+st.markdown("---")
 st.write("Developed by Chaithanya")
-
-
