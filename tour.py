@@ -82,4 +82,4 @@ for i in range(0, num_images, num_cols):
 # Footer
 st.markdown("---")
 st.write("Developed by Chaithanya")
-st.write("CSE,VVCE,MYSORE")
+st.write("Student Dept of CSE , VVCE , MYSORE")
