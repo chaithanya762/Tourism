@@ -116,7 +116,7 @@ for i in range(0, num_images, num_cols):
     for j, (caption, url) in enumerate(images[i:i+num_cols]):
         with cols[j]:
             st.image(url, caption=caption, use_column_width=True)
-            st.markdown(f"<p class='image-caption'>{caption}</p>", unsafe_allow_html=True)
+            # st.markdown(f"<p class='image-caption'>{caption}</p>", unsafe_allow_html=True) <- Remove this line
             st.markdown("<style>.stImg {padding: 0 !important;}</style>", unsafe_allow_html=True)
 
 # Footer
