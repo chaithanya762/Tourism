@@ -3,10 +3,17 @@ import streamlit as st
 # Set page configuration to dark mode
 st.set_page_config(layout="wide", page_title="Mysore Tourism", page_icon=":cityscape:")
 
-# Custom CSS for title and introduction
+# Custom CSS for full-width container with background image
 st.markdown(
     """
     <style>
+    .full-width-container {
+        width: 100%;
+        padding: 20px;
+        background: url('https://images.app.goo.gl/yBPJ1TXvyjv9aAeR8');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .title {
         font-family: 'Pacifico', cursive;
         font-size: 48px;
@@ -21,29 +28,17 @@ st.markdown(
         text-align: center;
         margin-bottom: 20px;
     }
-    .image-container {
-        padding: 10px;
-        border-radius: 10px;
-        border: 2px solid #FFFFFF;
-        margin-bottom: 20px;
-    }
     .image-caption {
         font-size: 16px;
         color: #FFFFFF;
         text-align: center;
         margin-top: 10px;
     }
-    .full-width-container {
-        width: 100%;
-        padding: 20px;
-        background: linear-gradient(135deg, #FFD700, #008000), url('https://images.app.goo.gl/yBPJ1TXvyjv9aAeR8');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 # Title and Introduction
 st.markdown("<h1 class='title'>Mysore Tourism</h1>", unsafe_allow_html=True)
