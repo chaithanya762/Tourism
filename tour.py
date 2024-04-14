@@ -36,7 +36,7 @@ st.markdown(
     .full-width-container {
         width: 100%;
         padding: 20px;
-        background: linear-gradient(135deg, #FFD700, #008000), url('https://t3.ftcdn.net/jpg/02/72/67/96/240_F_272679601_ReiKAFUY1xf9XituWgjkkrpTnxqrPlMh.jpg');
+        background: linear-gradient(135deg, #FFD700, #008000), url('https://images.app.goo.gl/yBPJ1TXvyjv9aAeR8');
         background-size: cover;
         background-repeat: no-repeat;
     }
