@@ -1,12 +1,18 @@
+import streamlit as st
+# Set page configuration to dark mode
+st.set_page_config(layout="wide", page_title="Mysore Tourism", page_icon=":cityscape:")
 
-import streamlit as st # Custom CSS for full-width container with background color
+# Custom CSS for full-width container with background image
 st.markdown(
     """
     <style>
     .full-width-container {
-        background-color: lightgreen; /* Change to your desired color */
+        width: 100%;
         padding: 20px;
-        color : black;
+        background-image: url('https://images.app.goo.gl/g5g5KZLPJ8Sn66qi7');
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: black; /* Text color on top of the background */
     }
     .title {
         font-family: 'Pacifico', cursive;
@@ -26,9 +32,6 @@ st.markdown(
         text-align: center;
         margin-top: 10px;
     }
-    body {
-        background-color: lightgreen; /* Change to your desired color */
-    }
     </style>
     """,
     unsafe_allow_html=True
@@ -36,8 +39,9 @@ st.markdown(
 
 
 # Title and Introduction
-st.markdown("<h1 style='text-align: center;'>Mysore Tourism</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center;'>Welcome to the Mysore Tourism app!</p>", unsafe_allow_html=True)
+st.markdown("<h1 class='title'>Mysore Tourism</h1>", unsafe_allow_html=True)
+st.markdown("<p class='intro'>Welcome to the Mysore Tourism app! Explore the beauty of Mysore through this gallery.</p>", unsafe_allow_html=True)
+
 # Image Gallery
 st.write("## Image Gallery")
 
@@ -77,4 +81,4 @@ for i in range(0, num_images, num_cols):
 # Footer
 st.markdown("---")
 st.write("Developed by Chaithanya")
-st.write("Student Dept of CSE , VVCE , MYSORE")
+st.write("Student, Dept of CSE , VVCE , MYSORE")
