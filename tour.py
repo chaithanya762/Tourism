@@ -43,20 +43,20 @@ st.write("## Image Gallery")
 
 # Mysore Attractions Images
 images = [
-    ("Mysore Palace", "https://images.app.goo.gl/geGQirfLz9gFqrhU9"),
-    ("Chamundi Hills", "https://images.app.goo.gl/iiunDd2qEwWTgLmb6"),
-    ("Brindavan Gardens", "https://images.app.goo.gl/Umi9X4EQ1fVEV7RCA"),
-    ("St. Philomena Church", "https://images.app.goo.gl/cG5WbsEcREn26T4e9"),
-    ("Mysore Zoo", "https://images.app.goo.gl/CyMrWiuczm2UTMms9"),
-    ("Sri Chamarajendra Park", "https://images.app.goo.gl/FQrZx4d3ZNfuQcDK6"),
-    ("Jaganmohan Palace", "https://images.app.goo.gl/Uzu8DVuUGgCqm4BA8"),
-    ("Rail Museum", "https://images.app.goo.gl/esXMyEaer6d4AwWcA"),
-    ("Karanji Lake", "https://images.app.goo.gl/76Cpm4VepedThfPi7"),
-    ("KRS Dam", "https://images.app.goo.gl/HToQ9UqTPbZdFAaEA"),
-    ("Jayalakshmi Vilas Mansion", "https://images.app.goo.gl/DLtj1dbu1jQTCPo69"),
-    ("Mysore Urban Development Authority (MUDA)", "https://images.app.goo.gl/LcfQVb6j6XmKzgFRA"),
-    ("Nanjangud", "https://images.app.goo.gl/ZdwQdnwJPQNv5dMMA"),
-    ("Mysore Race Course", "https://images.app.goo.gl/TYMJWKvs9Stuw5T76")
+    ("Mysore Palace", "https://i0.wp.com/mysuruinfrahub.com/wp-content/uploads/2023/08/mysorepalace3.jpg?fit=1200%2C675&ssl=1"),
+    ("Chamundi Hills", "https://as1.ftcdn.net/v2/jpg/04/86/71/30/1000_F_486713081_QkksWuOosnIB3Q9L9hh6jPTeEPy6jf5s.jpg"),
+    ("Brindavan Gardens", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1b/b7/ee/view-from-brindavan-gardens.jpg?w=1100&h=-1&s=1"),
+    ("St. Philomena Church", "https://www.holidify.com/images/cmsuploads/compressed/St.-Philominas_20180124221145.jpg"),
+    ("Mysore Zoo", "https://mysuruzoo.info/images/twotiger.png"),
+    ("Sri Chamarajendra Park", "https://nidhi.tourism.gov.in/api/FileUpload?FilePath=null/attraction_details/gallery/638429238225389031.jpg"),
+    ("Jaganmohan Palace", "https://mysuruonline.in/wp-content/uploads/2019/02/Jaganmohan-Palace.jpg"),
+    ("Rail Museum", "https://images.borrbo.com/outings/Railway%20Museum%20Mysore/Railway-museum-mysore.jpg"),
+    ("Karanji Lake", "https://images.borrbo.com/outings/Karanji%20Lake/Karanji-Lake-Boating.jpg"),
+    ("KRS Dam", "https://tripthentic.com/wp-content/uploads/mysore-krs-dam.jpg"),
+    ("Jayalakshmi Vilas Mansion", "https://www.bestbus.in/assets/images/tourist-attractions/jayalakshmi-vilas-in-mysore.jpg"),
+    ("Mysore Urban Development Authority (MUDA)", "https://www.mudamysore.gov.in/Mysore%20MUDA.jpg"),
+    ("Nanjangud", "https://www.nativeplanet.com/img/2023/04/srikanteshwarananjanguditemple1-1681728701.jpg"),
+    ("Mysore Race Course", "https://pbs.twimg.com/media/FNt4RvKaIAE7gJn?format=jpg&name=large")
 ]
 
 # Display Images
