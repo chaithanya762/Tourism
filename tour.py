@@ -1,6 +1,7 @@
 import streamlit as st
 
 # Set page configuration to dark mode
+vvce_logo= "https://pbs.twimg.com/profile_images/1707471739532541954/A-02BbVK_400x400.jpg"
 st.set_page_config(layout="wide", page_title="Mysore Tourism", page_icon=":cityscape:")
 background_image_url = "https://img.freepik.com/premium-photo/blurred-light-purple-pink-background-defocused-art-abstract-lilac-gradient-backdrop-with-blur-bokeh-blurry-wallpaper_113767-5465.jpg"
 background_image_style = f"""
