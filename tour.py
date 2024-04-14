@@ -104,10 +104,10 @@ images = [
 ]
 
 # Display Images
-col_count = 3  # Adjust the number of columns here
+col_count = 2  # Adjust the number of columns here
 num_images = len(images)
 num_cols = min(col_count, num_images)
-col_spacing = 10
+col_spacing = 15
 col_style = f"width: calc((100% - {col_spacing}px * {col_count - 1}) / {col_count});"
 
 for i in range(0, num_images, num_cols):
