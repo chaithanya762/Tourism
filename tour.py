@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Set page configuration to dark mode
-st.set_page_config(layout="wide", page_title="Mysore Tourism", page_icon=":cityscape:", theme="dark")
+st.set_page_config(layout="wide", page_title="Mysore Tourism", page_icon=":cityscape:")
 
 # Custom CSS for title and introduction
 st.markdown(
@@ -76,4 +76,5 @@ for i in range(0, num_images, num_cols):
             st.markdown("<style>.stImg {padding: 0 !important;}</style>", unsafe_allow_html=True)
 
 # Footer
-st.write("Developed by [Your Name]")
+st.write("Developed by Chaithanya")
+
