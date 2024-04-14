@@ -1,7 +1,6 @@
 import streamlit as st
 
 # Set page configuration to dark mode
-vvce_logo= "https://pbs.twimg.com/profile_images/1707471739532541954/A-02BbVK_400x400.jpg"
 st.set_page_config(layout="wide", page_title="Mysore Tourism", page_icon=":cityscape:")
 background_image_url = "https://img.freepik.com/premium-photo/blurred-light-purple-pink-background-defocused-art-abstract-lilac-gradient-backdrop-with-blur-bokeh-blurry-wallpaper_113767-5465.jpg"
 background_image_style = f"""
@@ -47,6 +46,14 @@ background_image_style = f"""
         margin: 10px;   /* Adjust the margin as needed */
         color: black;   /* Text color */
     }}
+    .image-caption {{
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold; /* Make caption bold */
+        font-style: italic; /* Optionally make caption italic */
+    }}
     </style>
 """
 
@@ -68,14 +75,6 @@ st.markdown(
         font-size: 20px;
         text-align: center;
         margin-bottom: 20px;
-    }
-    .image-caption {
-        font-size: 16px;
-        color: black;
-        text-align: center;
-        margin-top: 10px;
-        font-weight: bold; /* Make caption bold */
-        font-style: italic; /* Optionally make caption italic */
     }
     </style>
     """,
@@ -105,7 +104,7 @@ images = [
 ]
 
 # Display Images
-col_count = 5
+col_count = 3  # Adjust the number of columns here
 num_images = len(images)
 num_cols = min(col_count, num_images)
 col_spacing = 10
@@ -116,8 +115,6 @@ for i in range(0, num_images, num_cols):
     for j, (caption, url) in enumerate(images[i:i+num_cols]):
         with cols[j]:
             st.image(url, caption=caption, use_column_width=True)
-            st.markdown(f"<p class='image-caption'>{caption}</p>", unsafe_allow_html=True)
-            st.markdown("<style>.stImg {padding: 0 !important;}</style>", unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
