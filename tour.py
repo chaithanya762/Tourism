@@ -46,41 +46,18 @@ background_image_style = f"""
         margin: 10px;   /* Adjust the margin as needed */
         color: black;   /* Text color */
     }}
-    </style>
-"""
-
-# Display background image using HTML
-st.markdown(background_image_style, unsafe_allow_html=True)
-
-# Custom CSS for full-width container with background image
-st.markdown(
-    """
-    <style>
-    .title {
-        font-family: 'Pacifico', cursive;
-        font-size: 48px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .intro {
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .image-caption {
+    .image-caption {{
         font-size: 16px;
         color: black;
         text-align: center;
         margin-top: 10px;
         font-weight: bold; /* Make caption bold */
-        font-style: italic; /* Optionally make caption italic */
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for emphasis */
-    }
+    }}
     </style>
-    """,
-    unsafe_allow_html=True
-)
+"""
+
+# Display background image using HTML
+st.markdown(background_image_style, unsafe_allow_html=True)
 
 # Title and Introduction
 st.markdown("<h1 class='title'>Mysore Tourism</h1>", unsafe_allow_html=True)
@@ -115,8 +92,7 @@ for i in range(0, num_images, num_cols):
     cols = st.columns(num_cols)
     for j, (caption, url) in enumerate(images[i:i+num_cols]):
         with cols[j]:
-            st.image(url, caption=caption, use_column_width=True)
-            # st.markdown(f"<p class='image-caption'>{caption}</p>", unsafe_allow_html=True) <- Remove this line
+            st.image(url, caption=f"<span class='image-caption'>{caption}</span>", use_column_width=True, format='html')
             st.markdown("<style>.stImg {padding: 0 !important;}</style>", unsafe_allow_html=True)
 
 # Footer
