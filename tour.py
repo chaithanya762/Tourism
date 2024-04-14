@@ -27,6 +27,9 @@ st.markdown(
         text-align: center;
         margin-top: 10px;
     }
+    body {
+        background-color: lightgreen; /* Change to your desired color */
+    }
     </style>
     """,
     unsafe_allow_html=True
