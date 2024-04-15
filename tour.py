@@ -91,7 +91,7 @@ images = [
     ("Chamundi Hills", "https://as1.ftcdn.net/v2/jpg/04/86/71/30/1000_F_486713081_QkksWuOosnIB3Q9L9hh6jPTeEPy6jf5s.jpg"),
     ("Brindavan Gardens", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/1b/b7/ee/view-from-brindavan-gardens.jpg?w=1100&h=-1&s=1"),
     ("St. Philomena Church", "https://www.holidify.com/images/cmsuploads/compressed/St.-Philominas_20180124221145.jpg"),
-    ("Mysore Zoo", "https://mysuruzoo.info/images/twotiger.png"),
+    ("Mysore Zoo", "content://com.android.chrome.FileProvider/images/screenshot/17131845779475740915427269055842.jpg"),
     ("Sri Chamarajendra Park", "https://nidhi.tourism.gov.in/api/FileUpload?FilePath=null/attraction_details/gallery/638429238225389031.jpg"),
     ("Jaganmohan Palace", "https://mysuruonline.in/wp-content/uploads/2019/02/Jaganmohan-Palace.jpg"),
     ("Rail Museum", "https://images.borrbo.com/outings/Railway%20Museum%20Mysore/Railway-museum-mysore.jpg"),
@@ -118,5 +118,5 @@ for i in range(0, num_images, num_cols):
 
 # Footer
 st.markdown("---")
-st.write("Developed by Chaithanya")
+st.write("Developed by Chaithanya S & Chinmayi H")
 st.write("Student, Dept of CSE , VVCE , MYSORE")
