@@ -99,6 +99,8 @@ images = [
     ("Jayalakshmi Vilas Mansion", "https://www.bestbus.in/assets/images/tourist-attractions/jayalakshmi-vilas-in-mysore.jpg"),
     ("Mysore Urban Development Authority (MUDA)", "https://www.mudamysore.gov.in/Mysore%20MUDA.jpg"),
     ("Nanjangud", "https://www.nativeplanet.com/img/2023/04/srikanteshwarananjanguditemple1-1681728701.jpg"),
+    ("Lalitha Mahal Palace" ,"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/26/1e/39/lalitha-mahal-palace.jpg?w=700&h=-1&s=1"),
+    ("Mysore Airport","https://upload.wikimedia.org/wikipedia/commons/0/05/Mysore_Airport.jpg"),
     ("Mysore Race Course", "https://pbs.twimg.com/media/FNt4RvKaIAE7gJn?format=jpg&name=large")
 ]
 
