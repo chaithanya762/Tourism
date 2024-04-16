@@ -115,9 +115,9 @@ for i in range(0, num_images, num_cols):
     cols = st.columns(num_cols)
     for j, (caption, url) in enumerate(images[i:i+num_cols]):
         with cols[j]:
-            st.image(url, caption=caption, width=500)  # Adjust the width as needed
+            st.image(url, caption=caption, use_column_width=True)
 
 # Footer
 st.markdown("---")
 st.write("Developed by Chaithanya S & Chinmayi H")
-st.write("Student, Dept of CSE , VVCE , MYSORE")
+st.write("Student, Dept of CSE , VVCE , MYSORE") 
